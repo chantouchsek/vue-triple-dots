@@ -1,7 +1,7 @@
 {
   "name": "vue-triple-dots",
-  "description": "Vue.js Triple Dots Library",
-  "version": "0.0.2",
+  "description": "Vue.js Triple Dots Library, Display html tags in an easy way.",
+  "version": "0.0.3",
   "author": {
     "name": "Chantouch Sek",
     "email": "chantouchsek.cs83@gmail.com",
@@ -35,9 +35,13 @@
     "front-end",
     "vue",
     "vuejs",
+    "dot dot dot",
     "triple-dots",
+    "triple dots",
     "vue-triple-dot",
-    "vue-triple-dots"
+    "vue-triple-dots",
+    "vue triple dots",
+    "vue triple dot"
   ],
   "devDependencies": {
     "avoriaz": "^3.2.0",

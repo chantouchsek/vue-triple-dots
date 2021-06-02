@@ -22,6 +22,14 @@ export default {
     },
     watch: String,
     height: Number,
+    readLessKey: {
+      type: String,
+      default: 'readLess',
+    },
+    readMoreKey: {
+      type: String,
+      default: 'readMore',
+    }
   },
   computed: {
     options() {
@@ -86,7 +94,7 @@ export default {
       toggle,
       clamped: this.isClamped,
       expanded: this.expanded,
-      text: this.expanded ? 'read_more' : 'read_less',
+      text: this.expanded ? this.readMoreKey : this.readLessKey,
     }
     const before = this.$scopedSlots.before
       ? this.$scopedSlots.before(scope)

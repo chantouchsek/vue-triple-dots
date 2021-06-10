@@ -43,6 +43,14 @@ Vue.use(VueTripleDots)
 | ---------------- | ------------- | ------------------ | ------------------------------------------------------------ |
 | tag         | String  | 'div'        | The element will render.          |
 | ellipsis         | String  | '...'        | 3 dots will show when text has more.          |
+| callback         | Function  | undefined        |           |
+| truncate         | string  | undefined        |           |
+| tolerance         | number  | undefined        |           |
+| keep         | string  | null        |           |
+| watch         | string  | undefined        |           |
+| height         | number  | undefined        |           |
+| readLessKey         | string  | readLess        |           |
+| readMoreKey         | string  | readMore        |           |
 
 
 ## FAQ

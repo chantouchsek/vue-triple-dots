@@ -1,7 +1,7 @@
 {
   "name": "vue-triple-dots",
   "description": "Vue.js Triple Dots Library, Display html tags in an easy way.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Chantouch Sek",
     "email": "chantouchsek.cs83@gmail.com",
@@ -15,7 +15,8 @@
     "build:base": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules",
     "build:ssr": "cross-env NODE_ENV=production webpack --config webpack.config.ssr.js --progress --hide-modules",
     "build": "npm run build:base && npm run build:ssr",
-    "test": "echo no text; exit 0;"
+    "test": "echo no text; exit 0;",
+    "prepublish": "npm run build"
   },
   "types": "index.d.ts",
   "main": "dist/index.js",
